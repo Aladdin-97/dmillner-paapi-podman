@@ -5,7 +5,11 @@ on:
     branches:
       - main  # Adjust this to your branch name of interest
     paths:
-    - 'Dockerfile.app'  # Build start when this files is being modified
+     # Build start when these files are being modified
+    - 'Dockerfile.app' 
+    - 'main.py'
+    - 'requirements.txt'
+    
 env:
   APP_VERSION: latest # version tag - change it in every build - if needed
   USERNAME: "${{ secrets.PRIVATE_REGISTRY_USERNAME }}"
