@@ -13,9 +13,9 @@ on:
     
 env:
   APP_VERSION: latest # version tag - change it in every build - if needed
-  USERNAME: "${{ secrets.PRIVATE_REGISTRY_USERNAME }}"
-  PASSWORD: "${{ secrets.PRIVATE_REGISTRY_PASSWORD }}"
-  REPONAME: "${{ secrets.PRIVATE_REPO_NAME }}"
+  USERNAME: "${{ secrets.PRIVATE_REGISTRY_USERNAME }}" # your username
+  PASSWORD: "${{ secrets.PRIVATE_REGISTRY_PASSWORD }}" # your token with read and write permission 
+  REPONAME: "${{ secrets.PRIVATE_REPO_NAME }}" # your repo name - usually it's docker_username/reponame
   REGISTRY: docker.io
 
 jobs:
