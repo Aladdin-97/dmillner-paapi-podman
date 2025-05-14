@@ -286,7 +286,8 @@ tags_metadata = [
 app = FastAPI(title="Personal Accounting API", openapi_tags=tags_metadata, root_path=root_path,
               root_path_in_servers=False,
               servers=[
-                  {"url": "https://sandbox.paapi.org", "description": "Sandbox environment"},
+                  #{"url": "https://sandbox.paapi.org", "description": "Sandbox environment"},
+                  {"url": "http://localhost", "description": "Sandbox environment"},
                   {"url": "https://api.paapi.org", "description": "Production environment"},
               ],
               )

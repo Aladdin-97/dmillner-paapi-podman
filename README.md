@@ -5,11 +5,17 @@ The sensitive variables are set inside Settings (tab of repo ) > Security > Secr
 ## Docker image test 
 
 ```
-docker run -p 80:80 -d docker_username/repo:latest
+docker run -p 80:80 -d docker_username/reponame:latest
 ```
 
 or 
 
 ```
-podman run -p 80:80 -d docker_username/test:latest
+podman run -p 80:80 -d docker_username/reponame:latest
 ```
+
+always pull image after a build:
+
+```docker pull docker_username/reponame:latest```
+or
+```podman pull docker_username/reponame:latest```
