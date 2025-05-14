@@ -1,0 +1,38 @@
+name: Build and Push Container Image
+
+on:
+  push:
+    branches:
+      - main  # Adjust this to your branch name of interest
+    paths:
+    - 'Dockerfile.app'  # Build start when this files is being modified
+env:
+  APP_VERSION: latest # version tag - change it in every build - if needed
+  USERNAME: "${{ secrets.PRIVATE_REGISTRY_USERNAME }}"
+  PASSWORD: "${{ secrets.PRIVATE_REGISTRY_PASSWORD }}"
+  REPONAME: "${{ secrets.PRIVATE_REPO_NAME }}"
+  REGISTRY: docker.io
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        
+      - name: Login to Docker Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ env.USERNAME }}
+          password: ${{ env.PASSWORD }}
+          logout: true # logout at the end of jobs
+        
+      - name: Build App Container Image
+        run: docker build -t ${REPONAME}:${APP_VERSION} --file Dockerfile.app .
+
+      - name: Push App Container Image
+        run: docker push ${REPONAME}:${APP_VERSION}
