@@ -9,6 +9,7 @@ on:
     - 'Dockerfile.app' 
     - 'main.py'
     - 'requirements.txt'
+    - 'chart.json'
     
 env:
   APP_VERSION: latest # version tag - change it in every build - if needed

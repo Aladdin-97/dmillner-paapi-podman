@@ -11,9 +11,9 @@ import os
 import uuid
 
 stage = os.environ.get('STAGE', None)
-root_path = f"/{stage}" if stage else "/"
-base_url = "https://sandbox.paapi.org"
-report_base_url = "https://sandbox.paapi.org/reports"
+# root_path = f"/{stage}" if stage else "/"
+# base_url = "https://sandbox.paapi.org"
+# report_base_url = "https://sandbox.paapi.org/reports"
 # connecting to a SQLite database
 db = dataset.connect('sqlite:///sqlitefile.db')
 
