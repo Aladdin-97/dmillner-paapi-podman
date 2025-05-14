@@ -1,0 +1,348 @@
+[
+  {
+    "display_name": "Checking Account",
+    "account_code": "101",
+    "account_type": "BANK",
+    "description": "Personal checking account for income and expenses",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Savings Account",
+    "account_code": "102",
+    "account_type": "BANK",
+    "description": "Personal savings account for emergency fund and savings",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Emergency Fund",
+    "account_code": "103",
+    "account_type": "BANK",
+    "description": "Account designated for emergency savings",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Stocks",
+    "account_code": "201",
+    "account_type": "INVESTMENT",
+    "description": "Investment account for individual stocks",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Bonds",
+    "account_code": "202",
+    "account_type": "INVESTMENT",
+    "description": "Investment account for individual bonds",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Mutual Funds",
+    "account_code": "203",
+    "account_type": "INVESTMENT",
+    "description": "Investment account for mutual funds",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Retirement Accounts",
+    "account_code": "204",
+    "account_type": "INVESTMENT",
+    "description": "Investment account for retirement savings, such as IRA or 401k",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Cryptocurrency",
+    "account_code": "205",
+    "account_type": "INVESTMENT",
+    "description": "Investment account for cryptocurrencies, such as Bitcoin, Ethereum, etc.",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Primary Residence",
+    "account_code": "301",
+    "account_type": "PROPERTY",
+    "description": "Value of primary residence",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Rental Property",
+    "account_code": "302",
+    "account_type": "PROPERTY",
+    "description": "Value of rental property",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Vehicles",
+    "account_code": "303",
+    "account_type": "PROPERTY",
+    "description": "Value of personal vehicles",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Inventory",
+    "account_code": "304",
+    "account_type": "ASSET",
+    "description": "Value of items purchased for resale",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Credit Card Debt",
+    "account_code": "401",
+    "account_type": "LIABILITY",
+    "description": "Outstanding credit card balances",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Personal Loans",
+    "account_code": "402",
+    "account_type": "LIABILITY",
+    "description": "Outstanding personal loans",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Mortgage",
+    "account_code": "403",
+    "account_type": "LIABILITY",
+    "description": "Outstanding mortgage balance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Student Loans",
+    "account_code": "404",
+    "account_type": "LIABILITY",
+    "description": "Outstanding student loan balance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Car Loans",
+    "account_code": "405",
+    "account_type": "LIABILITY",
+    "description": "Outstanding car loan balance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Salary",
+    "account_code": "501",
+    "account_type": "INCOME",
+    "description": "Regular employment income",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Bonuses",
+    "account_code": "502",
+    "account_type": "INCOME",
+    "description": "Employment bonuses and incentives",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Commissions",
+    "account_code": "503",
+    "account_type": "INCOME",
+    "description": "Sales commissions and other performance-based income",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Rental Income",
+    "account_code": "504",
+    "account_type": "INCOME",
+    "description": "Income from rental properties",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Dividends",
+    "account_code": "505",
+    "account_type": "INCOME",
+    "description": "Dividend income from investments",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Interest",
+    "account_code": "506",
+    "account_type": "INCOME",
+    "description": "Interest income from bank accounts and investments",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Gifts",
+    "account_code": "507",
+    "account_type": "INCOME",
+    "description": "Monetary gifts received",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Sale of Assets",
+    "account_code": "508",
+    "account_type": "INCOME",
+    "description": "Income from the sale of personal assets",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Online Sales",
+    "account_code": "509",
+    "account_type": "INCOME",
+    "description": "Income from online sales",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Groceries",
+    "account_code": "601",
+    "account_type": "EXPENSE",
+    "description": "Expenses for groceries and household supplies",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Utilities",
+    "account_code": "602",
+    "account_type": "EXPENSE",
+    "description": "Expenses for utilities such as electricity, gas, water, and sewer",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Housing",
+    "account_code": "603",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to housing, such as rent or mortgage payments",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Transportation",
+    "account_code": "604",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to transportation,such as fuel, public transportation, vehicle maintenance, and insurance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Healthcare",
+    "account_code": "605",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to healthcare, such as medical, dental, and vision insurance premiums, copays, and out-of-pocket costs",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Insurance",
+    "account_code": "606",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to insurance, such as life, disability, and property insurance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Entertainment",
+    "account_code": "607",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to entertainment, such as dining out, movies, and hobbies",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Education",
+    "account_code": "608",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to education, such as tuition, books, and supplies",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Clothing",
+    "account_code": "609",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to clothing and accessories",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Savings",
+    "account_code": "610",
+    "account_type": "EXPENSE",
+    "description": "Amount allocated to savings each month",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Debt Repayment",
+    "account_code": "611",
+    "account_type": "EXPENSE",
+    "description": "Amount allocated to repay debts, such as credit cards, personal loans, and student loans",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Cost of Goods Sold",
+    "account_code": "612",
+    "account_type": "EXPENSE",
+    "description": "Expenses related to the cost of goods sold",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Initial Investment",
+    "account_code": "701",
+    "account_type": "EQUITY",
+    "description": "Owner's initial investment in personal finance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Additional Investments",
+    "account_code": "702",
+    "account_type": "EQUITY",
+    "description": "Additional owner's investments in personal finance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Cumulative Net Income",
+    "account_code": "703",
+    "account_type": "EQUITY",
+    "description": "Cumulative net income retained in personal finance",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Accounts Receivable",
+    "account_code": "800",
+    "account_type": "ASSET",
+    "description": "Amounts owed by customers for goods or services sold on credit",
+    "tax_type": "NONE",
+    "inactive": false
+  },
+  {
+    "display_name": "Accounts Payable",
+    "account_code": "900",
+    "account_type": "LIABILITY",
+    "description": "Amounts owed to suppliers for goods or services purchased on credit",
+    "tax_type": "NONE",
+    "inactive": false
+  }
+
+]
+
